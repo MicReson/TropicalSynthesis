@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
+			"minor" : 3,
 			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 727.0, 87.0, 848.0, 1319.0 ],
+		"rect" : [ 727.0, 125.0, 848.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -256,7 +256,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 2.526595744680851, 1.0, 0, 0.0, 10.50531914893617, 0.4, 0, 0.0, 15.292553191489361, 0.52, 0, 0.0, 24.867021276595743, 0.146666666666667, 0, 0.0, 45.079787234042556, 0.0, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 1.462765957446809, 0.883333398501078, 0, 0.0, 9.973404255319149, 0.176666731834412, 0, 0.0, 13.696808510638299, 0.483333398501078, 0, 0.0, 24.335106382978722, 0.123333398501078, 0, 0.0, 34.973404255319146, 0.0, 0, 0.0 ],
 					"domain" : 100.0,
 					"id" : "obj-55",
 					"maxclass" : "function",
@@ -385,7 +385,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 118.5, 133.0, 50.0, 22.0 ],
-					"text" : "8"
+					"text" : "5"
 				}
 
 			}
@@ -772,7 +772,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 3,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -850,7 +850,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-78",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -1834,6 +1833,7 @@
 				"obj-72::obj-1::obj-1::obj-12::obj-70" : 				{
 					"parameter_exponent" : 2.5,
 					"parameter_initial" : 15000.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[6]",
 					"parameter_modmode" : 0,
@@ -1845,6 +1845,7 @@
 				"obj-72::obj-1::obj-1::obj-44::obj-70" : 				{
 					"parameter_exponent" : 2.0,
 					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[5]",
 					"parameter_modmode" : 0,
@@ -1856,6 +1857,7 @@
 				"obj-72::obj-1::obj-1::obj-45::obj-70" : 				{
 					"parameter_exponent" : 2.0,
 					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[4]",
 					"parameter_modmode" : 0,
@@ -1867,6 +1869,7 @@
 				"obj-72::obj-1::obj-1::obj-46::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 100.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[3]",
 					"parameter_modmode" : 0,
@@ -1878,6 +1881,7 @@
 				"obj-72::obj-1::obj-1::obj-47::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 100.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[2]",
 					"parameter_modmode" : 0,
@@ -1889,6 +1893,7 @@
 				"obj-72::obj-1::obj-1::obj-48::obj-70" : 				{
 					"parameter_exponent" : 1.58,
 					"parameter_initial" : 100.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[1]",
 					"parameter_modmode" : 0,
@@ -1900,6 +1905,7 @@
 				"obj-72::obj-1::obj-1::obj-97::obj-70" : 				{
 					"parameter_exponent" : 1.01,
 					"parameter_initial" : 100.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_modmode" : 0,
 					"parameter_range" : [ 1.0, 200.0 ],
@@ -1910,6 +1916,7 @@
 				"obj-72::obj-1::obj-2::obj-100::obj-70" : 				{
 					"parameter_exponent" : 4.0,
 					"parameter_initial" : 1000.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[13]",
 					"parameter_modmode" : 0,
@@ -1921,6 +1928,7 @@
 				"obj-72::obj-1::obj-2::obj-101::obj-70" : 				{
 					"parameter_exponent" : 4.0,
 					"parameter_initial" : 8000.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[10]",
 					"parameter_modmode" : 0,
@@ -1932,6 +1940,7 @@
 				"obj-72::obj-1::obj-2::obj-36::obj-70" : 				{
 					"parameter_exponent" : 1.189901,
 					"parameter_initial" : 100.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[8]",
 					"parameter_modmode" : 0,
@@ -1943,6 +1952,7 @@
 				"obj-72::obj-1::obj-2::obj-79::obj-70" : 				{
 					"parameter_exponent" : 1.189901,
 					"parameter_initial" : 100.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[14]",
 					"parameter_modmode" : 0,
@@ -1954,6 +1964,7 @@
 				"obj-72::obj-1::obj-2::obj-81::obj-70" : 				{
 					"parameter_exponent" : 1.189901,
 					"parameter_initial" : 100.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[11]",
 					"parameter_modmode" : 0,
@@ -1965,6 +1976,7 @@
 				"obj-72::obj-1::obj-2::obj-88::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 1.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[9]",
 					"parameter_modmode" : 0,
@@ -1976,6 +1988,7 @@
 				"obj-72::obj-1::obj-2::obj-92::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 0.707107,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[15]",
 					"parameter_modmode" : 0,
@@ -1987,6 +2000,7 @@
 				"obj-72::obj-1::obj-2::obj-96::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 1.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[12]",
 					"parameter_modmode" : 0,
@@ -1998,6 +2012,7 @@
 				"obj-72::obj-1::obj-2::obj-99::obj-70" : 				{
 					"parameter_exponent" : 4.0,
 					"parameter_initial" : 125.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 1,
 					"parameter_longname" : "hirt.val[7]",
 					"parameter_modmode" : 0,
@@ -2009,6 +2024,7 @@
 				"obj-72::obj-24::obj-1::obj-28::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[17]",
 					"parameter_modmode" : 0,
@@ -2020,6 +2036,7 @@
 				"obj-72::obj-24::obj-1::obj-29::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[16]",
 					"parameter_modmode" : 0,
@@ -2031,6 +2048,7 @@
 				"obj-72::obj-24::obj-2::obj-29::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 1.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[18]",
 					"parameter_modmode" : 0,
@@ -2042,6 +2060,7 @@
 				"obj-72::obj-24::obj-2::obj-8::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 50.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[19]",
 					"parameter_modmode" : 0,
@@ -2053,6 +2072,7 @@
 				"obj-72::obj-31::obj-17::obj-70" : 				{
 					"parameter_exponent" : 3.0,
 					"parameter_initial" : 0.5,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[28]",
 					"parameter_modmode" : 0,
@@ -2064,6 +2084,7 @@
 				"obj-72::obj-31::obj-19::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[27]",
 					"parameter_modmode" : 0,
@@ -2076,6 +2097,7 @@
 				"obj-72::obj-31::obj-22::obj-70" : 				{
 					"parameter_exponent" : 4.0,
 					"parameter_initial" : 125.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[26]",
 					"parameter_modmode" : 0,
@@ -2087,6 +2109,7 @@
 				"obj-72::obj-31::obj-50::obj-70" : 				{
 					"parameter_exponent" : 3.0,
 					"parameter_initial" : 0.707107,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[25]",
 					"parameter_modmode" : 0,
@@ -2098,6 +2121,7 @@
 				"obj-72::obj-31::obj-51::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[24]",
 					"parameter_modmode" : 0,
@@ -2110,6 +2134,7 @@
 				"obj-72::obj-31::obj-53::obj-70" : 				{
 					"parameter_exponent" : 4.0,
 					"parameter_initial" : 1000.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[23]",
 					"parameter_modmode" : 0,
@@ -2121,6 +2146,7 @@
 				"obj-72::obj-31::obj-54::obj-70" : 				{
 					"parameter_exponent" : 3.0,
 					"parameter_initial" : 0.5,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[22]",
 					"parameter_modmode" : 0,
@@ -2132,6 +2158,7 @@
 				"obj-72::obj-31::obj-55::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[21]",
 					"parameter_modmode" : 0,
@@ -2144,6 +2171,7 @@
 				"obj-72::obj-31::obj-56::obj-70" : 				{
 					"parameter_exponent" : 4.0,
 					"parameter_initial" : 8000.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[20]",
 					"parameter_modmode" : 0,
@@ -2155,6 +2183,7 @@
 				"obj-72::obj-3::obj-59::obj-70" : 				{
 					"parameter_exponent" : 2.0,
 					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[33]",
 					"parameter_modmode" : 0,
@@ -2166,6 +2195,7 @@
 				"obj-72::obj-3::obj-62::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[29]",
 					"parameter_modmode" : 0,
@@ -2177,6 +2207,7 @@
 				"obj-72::obj-3::obj-63::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 100.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[30]",
 					"parameter_modmode" : 0,
@@ -2188,6 +2219,7 @@
 				"obj-72::obj-3::obj-64::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[31]",
 					"parameter_modmode" : 0,
@@ -2200,6 +2232,7 @@
 				"obj-72::obj-3::obj-65::obj-70" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 50.0,
+					"parameter_initial_enable" : 0,
 					"parameter_invisible" : 0,
 					"parameter_longname" : "hirt.val[32]",
 					"parameter_modmode" : 0,
@@ -2214,411 +2247,404 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"name" : "HIRT_HISSTools_Logo.png",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/misc/HIRT_image",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/misc/HIRT_image",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bufresample~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bufreverse~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "hirt.buffer.filter.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hirt.convolutionreverb~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_tabs_offline.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_tab_shape.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt.dial.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt.dial.linear.only.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_tab_damp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_interface_damp.js",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_tabs_realtime.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_tab_position.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_interface_pos.js",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_tab_modulation.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_interface_mod.js",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_eq.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_interface_eq.js",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_ir.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_file_loading.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_loading_scheme.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_file_set.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_file_check.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_base_name.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_folder.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_data_colls.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_file_ir_display.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_filter_type.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_file_picker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_cr_info_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_output.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_convrvrb_clientlist_alias.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "HIRT_HISSTools_Logo.png",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/misc/HIRT_image",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/misc/HIRT_image",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt.convrvrb.realtime~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hirt.convolvestereo~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hirt_convrvrb_rt_part1.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_convolution_rt_library.genexpr",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"type" : "GenX",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_eq_library.genexpr",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"type" : "GenX",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_convrvrb_rt_part3.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_convolution_rt_library.genexpr",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"type" : "GenX",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_convrvrb_rt_part5.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_convolution_rt_library.genexpr",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
-				"type" : "GenX",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_gain_params.maxpat",
+				"name" : "hirt.convrvrb.realtime~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt.svfcoeff.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_zoom_factor.js",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/javascript",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/javascript",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hirt.damping.cascade.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hirt.buffer.filter.maxpat",
+				"name" : "hirt.dial.linear.only.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hirt_partition_late.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_partition_fix_length.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_nan_fix.maxpat",
+				"name" : "hirt.dial.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_partition_early.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_partition_copy_buffers.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hirt_gain_and_display.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hirt.size.resample.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt.svfcoeff.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_base_name.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_conv_rvrb_zoom.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_convolution_rt_library.genexpr",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
+				"type" : "GenX",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_convrvrb_clientlist_alias.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_convrvrb_rt_part1.gendsp",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_convrvrb_rt_part3.gendsp",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_convrvrb_rt_part5.gendsp",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_cr_info_view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_data_colls.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_eq.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_eq_library.genexpr",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/code",
+				"type" : "GenX",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_file_check.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_file_ir_display.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_file_loading.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_file_picker.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_file_set.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_filter_type.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_folder.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_gain_and_display.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_gain_params.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_interface_damp.js",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_interface_eq.js",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_interface_mod.js",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_interface_pos.js",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_ir.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_loading_scheme.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_nan_fix.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_output.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_partition_copy_buffers.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_partition_early.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_partition_fix_length.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hirt_partition_late.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hirt_size_resample_feed.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
-				"patcherrelativepath" : "../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spectrumdraw~.mxo",
-				"type" : "iLaX"
+				"name" : "hirt_tab_damp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "iraverage~.mxo",
-				"type" : "iLaX"
+				"name" : "hirt_tab_modulation.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "irdisplay~.mxo",
-				"type" : "iLaX"
+				"name" : "hirt_tab_position.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "irtrimnorm~.mxo",
-				"type" : "iLaX"
+				"name" : "hirt_tab_shape.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "multiconvolve~.mxo",
-				"type" : "iLaX"
+				"name" : "hirt_tabs_offline.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "morphfilter~.mxo",
-				"type" : "iLaX"
+				"name" : "hirt_tabs_realtime.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/patchers/HIRT_reverb/HIRT_reverb_support",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "irstats~.mxo",
-				"type" : "iLaX"
+				"name" : "hirt_zoom_factor.js",
+				"bootpath" : "~/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/javascript",
+				"patcherrelativepath" : "../../Packages/HISSTools Impulse Response Toolbox (HIRT)/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "irmix~.mxo",
-				"type" : "iLaX"
+				"name" : "iraverage~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "ircropfade~.mxo",
-				"type" : "iLaX"
+				"name" : "ircropfade~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "bufreverse~.mxo",
-				"type" : "iLaX"
+				"name" : "irdisplay~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "bufresample~.mxo",
-				"type" : "iLaX"
+				"name" : "irmix~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "irstats~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "irtrimnorm~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "morphfilter~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "multiconvolve~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "spectrumdraw~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0
